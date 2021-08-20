@@ -8,7 +8,7 @@
 ### **2. Environment**
 * **Eclispe**
   + Spring Legacy Project
-   - Template : Spring MVC 선택
+    - Template : Spring MVC 선택
 * **Server**
   + Tomcat
 * **Database**
@@ -36,10 +36,10 @@
 ### **4. Files**
 * **pom.xml**
   + 기본적인 Spring Legacy Project의 POM에 추가된 Dependency들
-   - lombok
-   - spring-jdbc
-   - mysql-connector-java
-   - commons-dbcp2
+    - lombok
+    - spring-jdbc
+    - mysql-connector-java
+    - commons-dbcp2
 * **web.xml**
   + contextConfigLocation 설정(dao-context.xml, service-context.xml)
   + DispatcherServlet 설정(servlet-context.xml)
